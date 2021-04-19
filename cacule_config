@@ -5,7 +5,7 @@ echo "Enable CacULE CPU scheduler..."
 scripts/config --enable CONFIG_CACULE_SCHED
 scripts/config --disable CONFIG_FAIR_GROUP_SCHED
 scripts/config --disable CONFIG_SCHED_AUTOGROUP
-#scripts/config --set-val CONFIG_NR_CPUS "12"
+scripts/config --set-val CONFIG_NR_CPUS "12"
 echo "General Setup"
 scripts/config --disable CONFIG_SECURITY
 scripts/config --disable CONFIG_HARDENED_USERCOPY
